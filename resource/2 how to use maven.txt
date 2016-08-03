@@ -1,0 +1,19 @@
+1.how to config maven.
+
+	(1), download maven and decompress the maven project.
+	(2), config MAVEN_HOME/Path/MAVEN_OPTS environment variable.
+	(3), run mvn -v for checking.
+
+2.how to new maven project.
+	
+	 src/main/java
+	 src/main/resources
+	 src/test/java
+	 src/test/resources
+	 target
+	 po.xml
+
+
+3.how to build maven project.
+
+	mvn clean
