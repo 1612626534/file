@@ -1,0 +1,25 @@
+How to config git client and build connection with github?
+
+1. download git client and install it.
+
+2. register a account in github.
+
+3. create a repository with this account.
+
+4. you can use git commands to build connection or ask help for putty.
+
+5. for git command:
+	
+	ssh-keygen -t  rsa  -f  ~/.ssh/admin
+	
+	会在C:\Users\Administrator\.ssh生成两个文件 admin.pub 和admin两个文件 。admin是私钥文件 ，admin.pub是公钥文件。
+	
+	然后建立一个config文件 ，指明登陆某台服务器用哪个私钥文件 。比如我写入了以下内容：hostname  192.168.1.101。
+
+	将公钥加到github上的ssh。
+
+6. for putty client.
+	
+	download putty client.
+
+	
