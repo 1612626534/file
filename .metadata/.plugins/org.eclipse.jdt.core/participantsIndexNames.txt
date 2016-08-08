@@ -1,0 +1,15 @@
+INDEX VERSION 1.126
+F:\file\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1392932841.index
+\coffee\src
+F:\file\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1947758496.index
+\123123\src
+F:\file\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2642374589.index
+\tea Maven Webapp\src
+F:\file\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\60162235.index
+\time\src\main\java
+F:\file\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\659796589.index
+\getfiles\src
+F:\file\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1580689629.index
+\coffee Maven Webapp\src\main\resources
+F:\file\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2519912517.index
+\coffee\src\main\java
