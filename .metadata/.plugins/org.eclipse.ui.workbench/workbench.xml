@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="59" version="2.0">
+<workbench progressCount="70" version="2.0">
 <workbenchAdvisor/>
 <window height="737" maximized="true" width="1024" x="-14" y="1">
 <fastViewData fastViewLocation="1024"/>
@@ -27,9 +27,16 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.struts2.editor" itemType="typeToolBarContribution" x="342" y="22"/>
+<coolItem id="com.genuitec.eclipse.springframework.springconfigeditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typePlaceholder" x="38" y="22"/>
+<coolItem id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.m2e.editor.MavenPomEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.m2e.editor.MavenPomEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -40,52 +47,43 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" partName="coffee/pom.xml" path="F:/file/coffee/pom.xml" title="coffee/pom.xml" tooltip="coffee/pom.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/coffee/pom.xml"/>
+<editor id="com.genuitec.eclipse.struts2.editor" name="struts.xml" partName="struts.xml" path="F:/file/coffee/src/main/resources/struts.xml" title="struts.xml" tooltip="coffee/src/main/resources/struts.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/coffee/src/main/resources/struts.xml"/>
+</editor>
+<editor id="com.genuitec.eclipse.springframework.springconfigeditor" name="spring.xml" partName="spring.xml" path="F:/file/coffee/src/main/resources/spring.xml" title="spring.xml" tooltip="coffee/src/main/resources/spring.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/coffee/src/main/resources/spring.xml"/>
+</editor>
+<editor id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" partName="web.xml" path="F:/file/coffee/src/main/webapp/WEB-INF/web.xml" title="web.xml" tooltip="F:/file/coffee/src/main/webapp/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/coffee/src/main/webapp/WEB-INF/web.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="com.genuitec.eclipse.springframework.springconfigeditor" name="spring_hibernate.xml" partName="spring_hibernate.xml" path="F:/file/coffee/src/main/resources/spring_hibernate.xml" title="spring_hibernate.xml" tooltip="coffee/src/main/resources/spring_hibernate.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/coffee/src/main/resources/spring_hibernate.xml"/>
 </editor>
 </editors>
 <views>
-<view id="com.genuitec.eclipse.ui.HTMLView" partName="Web Browser">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
-<viewState/>
-</view>
-<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy"/>
-<view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
-<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.priorityField="30" org.eclipse.ui.ide.resourceField="90"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
-</viewState>
-</view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
 <view id="org.springframework.ide.eclipse.ui.navigator.springExplorer" partName="Spring Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.springframework.ide.eclipse.ui.navigator.workingsets.showTopLevelWorkingSets="0"/>
 </view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers"/>
+<view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.resourceField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (5 items)"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="1644"/>
@@ -134,10 +132,13 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.m2e.editor.MavenPomEditor" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="com.genuitec.eclipse.springframework.springconfigeditor" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
@@ -231,22 +232,13 @@
 <perspective_action id="com.genuitec.eclipse.web20.perspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="uky.article.imageviewer.views.ImageView"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.ui.views.TaskList"/>
-<view id="com.genuitec.eclipse.ui.HTMLView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <fastViewBars>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@6d62f58e" orientation="512" selectedTabId="org.eclipse.ui.views.ProgressView" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
-<view id="org.eclipse.ui.views.ProgressView" ratio="0.29977462"/>
-</fastViews>
-</fastViewBar>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@3a04416b" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
@@ -267,7 +259,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22435424" ratioLeft="304" ratioRight="1051" relationship="2" relative="cvslocation"/>
+<info part="org.eclipse.ui.editorss" ratio="0.22891566" ratioLeft="304" ratioRight="1024" relationship="2" relative="cvslocation"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@3a04416b" ratio="0.75" ratioLeft="600" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
@@ -275,27 +267,32 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@6d62f58e" ratio="0.5487013" ratioLeft="338" ratioRight="278" relationship="4" relative="org.eclipse.ui.internal.ViewStack@3a04416b">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.6177924" ratioLeft="375" ratioRight="232" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5f90d5e5" ratio="0.7491803" ratioLeft="457" ratioRight="153" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.5947282" ratioLeft="361" ratioRight="246" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
-<page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7701d92f" ratio="0.59637564" ratioLeft="362" ratioRight="245" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -310,7 +307,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomleft" ratio="0.5487013" ratioLeft="338" ratioRight="278" relationship="4" relative="topleft">
+<info folder="true" part="bottomleft" ratio="0.723229" ratioLeft="439" ratioRight="168" relationship="4" relative="topleft">
 <folder activePageID="uky.article.imageviewer.views.ImageView" appearance="2" expanded="2">
 <page content="uky.article.imageviewer.views.ImageView" label="Image Preview"/>
 <page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
@@ -321,6 +318,11 @@
 </folder>
 </info>
 </mainWindow>
+<hiddenWindow height="250" width="821" x="321" y="451">
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="com.genuitec.eclipse.ui.HTMLView"/>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
+</hiddenWindow>
 </layout>
 </perspective>
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
@@ -477,16 +479,121 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" path="/coffee/pom.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/coffee/pom.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/coffee/src/main/resources/spring.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/coffee/src/main/java/com/caesar/pojo/Recoder.hbm.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" path="/coffee/src/main/resources/struts.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/coffee/src/main/java/com/caesar/action/BaseAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/coffee/src/main/java/com/caesar/action/RecoderAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/coffee/src/main/resources/spring.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/coffee/src/main/java/com/caesar/action/BaseAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/coffee/src/main/java/com/caesar/action/RecoderAction.java"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" path="/coffee/src/main/webapp/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/coffee/src/main/resources/spring_hibernate.xml"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" path="/coffee/src/main/resources/config.properties"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=coffee/src\/main\/webapp\/WEB-INF\/lib\/c3p0-0.9.1.2.jar&lt;com.mchange.v2.c3p0(ComboPooledDataSource.class"/>
 </editors>
-<item historyLabel="coffee/pom.xml" index="0"/>
-<item historyLabel="coffee/pom.xml" index="0">
-<position info="not_deleted" x="402" y="0"/>
+<item historyLabel="Recoder.hbm.xml" index="1"/>
+<item historyLabel="struts.xml" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="coffee/pom.xml" index="1">
-<position info="not_deleted" x="347" y="11"/>
+<item historyLabel="spring.xml" index="0"/>
+<item historyLabel="BaseAction.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
+<item historyLabel="RecoderAction.java" index="4">
+<position info="not_deleted" x="79" y="0"/>
+</item>
+<item historyLabel="BaseAction.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="spring.xml" index="0"/>
+<item historyLabel="RecoderAction.java" index="4">
+<position info="not_deleted" x="82" y="0"/>
+</item>
+<item historyLabel="spring.xml" index="0"/>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="BaseAction.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="spring.xml" index="0"/>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="spring.xml" index="0"/>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="spring.xml" index="5"/>
+<item historyLabel="BaseAction.java" index="6">
+<position/>
+</item>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="BaseAction.java" index="6">
+<position/>
+</item>
+<item historyLabel="BaseAction.java" index="6">
+<position/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="452" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="452" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="452" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="176" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="232" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="297" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="320" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="385" y="0"/>
+</item>
+<item historyLabel="BaseAction.java" index="6">
+<position/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="385" y="0"/>
+</item>
+<item historyLabel="BaseAction.java" index="6">
+<position info="not_deleted" x="130" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="82" y="0"/>
+</item>
+<item historyLabel="BaseAction.java" index="6">
+<position info="not_deleted" x="130" y="0"/>
+</item>
+<item historyLabel="RecoderAction.java" index="7">
+<position info="not_deleted" x="82" y="0"/>
+</item>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="web.xml" index="8"/>
+<item historyLabel="spring_hibernate.xml" index="9"/>
+<item historyLabel="spring.xml" index="5"/>
+<item historyLabel="spring_hibernate.xml" index="9"/>
+<item historyLabel="web.xml" index="8"/>
+<item historyLabel="spring.xml" index="5"/>
+<item historyLabel="spring_hibernate.xml" index="9"/>
+<item historyLabel="config.properties" index="10"/>
+<item historyLabel="spring_hibernate.xml" index="9"/>
+<item historyLabel="spring.xml" index="5"/>
+<item historyLabel="spring_hibernate.xml" index="9"/>
+<item historyLabel="ComboPooledDataSource.class" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="spring_hibernate.xml" index="9"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -494,7 +601,6 @@
 <actionBarAdvisor/>
 <trimLayout>
 <trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@6d62f58e"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@3a04416b"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
@@ -508,23 +614,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="coffee/pom.xml">
-<persistable path="/coffee/pom.xml"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ComboPooledDataSource.class" tooltip="com.mchange.v2.c3p0.ComboPooledDataSource">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=coffee/src\/main\/webapp\/WEB-INF\/lib\/c3p0-0.9.1.2.jar&lt;com.mchange.v2.c3p0(ComboPooledDataSource.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="time/pom.xml">
-<persistable path="/time/pom.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="config.properties" tooltip="coffee/src/main/resources/config.properties">
+<persistable path="/coffee/src/main/resources/config.properties"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="coffee Maven Webapp/pom.xml">
-<persistable path="/coffee Maven Webapp/pom.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="spring_hibernate.xml" tooltip="coffee/src/main/resources/spring_hibernate.xml">
+<persistable path="/coffee/src/main/resources/spring_hibernate.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test.txt" tooltip="coffee Maven Webapp/src/main/resources/test.txt">
-<persistable path="/coffee Maven Webapp/src/main/resources/test.txt"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" tooltip="coffee/src/main/webapp/WEB-INF/web.xml">
+<persistable path="/coffee/src/main/webapp/WEB-INF/web.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="getfiles/pom.xml">
-<persistable path="/getfiles/pom.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseAction.java" tooltip="coffee/src/main/java/com/caesar/action/BaseAction.java">
+<persistable path="/coffee/src/main/java/com/caesar/action/BaseAction.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Hello.java" tooltip="getfiles/src/main/java/Hello.java">
-<persistable path="/getfiles/src/main/java/Hello.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RecoderAction.java" tooltip="coffee/src/main/java/com/caesar/action/RecoderAction.java">
+<persistable path="/coffee/src/main/java/com/caesar/action/RecoderAction.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="spring.xml" tooltip="coffee/src/main/resources/spring.xml">
+<persistable path="/coffee/src/main/resources/spring.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" name="struts.xml" tooltip="coffee/src/main/resources/struts.xml">
+<persistable path="/coffee/src/main/resources/struts.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Recorder.java" tooltip="coffee/src/main/java/com/caesar/pojo/Recorder.java">
+<persistable path="/coffee/src/main/java/com/caesar/pojo/Recorder.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="hibernate.config.xml" tooltip="coffee/src/main/resources/hibernate.config.xml">
+<persistable path="/coffee/src/main/resources/hibernate.config.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="hibernate.xml" tooltip="coffee/src/main/resources/hibernate.xml">
+<persistable path="/coffee/src/main/resources/hibernate.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="Recoder.hbm.xml" tooltip="coffee/src/main/java/com/caesar/pojo/Recoder.hbm.xml">
+<persistable path="/coffee/src/main/java/com/caesar/pojo/Recoder.hbm.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Status.java" tooltip="coffee/src/main/java/com/caesar/pojo/Status.java">
+<persistable path="/coffee/src/main/java/com/caesar/pojo/Status.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="hibernate.cfg.xml" tooltip="coffee/src/main/resources/hibernate.cfg.xml">
+<persistable path="/coffee/src/main/resources/hibernate.cfg.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="spring-hibernate.xml" tooltip="coffee/src/main/resources/spring-hibernate.xml">
+<persistable path="/coffee/src/main/resources/spring-hibernate.xml"/>
 </file>
 </mruList>
 </workbench>

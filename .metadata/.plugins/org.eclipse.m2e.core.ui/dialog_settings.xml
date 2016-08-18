@@ -58,8 +58,10 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="coffee"/>
 		</list>
 		<list key="artifactId">
+			<item value="coffee"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>

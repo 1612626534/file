@@ -2,7 +2,7 @@
 <project-module
   type="WEB"
   name="coffee"
-  id="myeclipse.1470663366671"
+  id="myeclipse.1470666431833"
   context-root="/coffee"
   j2ee-spec="5.0"
   archive="coffee.war">
