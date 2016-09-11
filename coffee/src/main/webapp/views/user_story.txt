@@ -1,0 +1,22 @@
+
+2016-08-21 ------------ 2016-08-29
+
+
+
+User can see task list page.
+User can create a task.
+User can assign a task to himself.
+User can update a task's status.
+User can delete a task.
+User can see his current task.
+User can see his finished task.
+User can see his unfinished task.
+User can search a task by date and text.
+User can sort task by date and status.
+User can creat sprint for him self.
+User can see sprint list.
+User can delete a sprint.
+User can add a task into a sprint.
+User can delete a task from a sprint.
+User can update the sprint status.
+User can search sprint and sort sprint. 

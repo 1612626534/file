@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="coffee">
+    <target name="init">
+    	<delete file="D:/apache/webapps/coffee-0.0.1-SNAPSHOT.war"></delete>
+    </target>
+    <target depends="init" name="build">
+    	<copy todir="D:/apache/webapps" file="F:/file/coffee/target/coffee-0.0.1-SNAPSHOT.war"></copy>
+    </target>
+
+</project>

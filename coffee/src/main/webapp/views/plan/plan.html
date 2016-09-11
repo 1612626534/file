@@ -1,0 +1,11 @@
+
+
+<div class="plan">
+    <div class="plan-title">
+        <span ng-repeat="item in planTitleItems" ng-bind="item.name" ng-class="{'item-selected': selectedItem.index == item.index}"></span>
+    </div>
+
+    <div class="plan-panel">
+        <ag-grid></ag-grid>
+    </div>
+</div>
